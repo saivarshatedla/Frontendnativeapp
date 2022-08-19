@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Debug in Exponent",
+            "request": "launch",
+            "type": "reactnative",
+            "cwd": "${workspaceFolder}",
+            "platform": "exponent",
+            "expoHostType": "lan"
+        },
+        {
+            "name": "Debug Android",
+            "request": "launch",
+            "type": "reactnative",
+            "cwd": "${workspaceFolder}",
+            "platform": "android"
+        },
+        {
+            "name": "Attach to Direct iOS - Experimental",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnativedirect",
+            "request": "attach",
+            "platform": "ios",
+            "useHermesEngine": false,
+            "port": 9221,
+            "isDynamic": true
+        }
+    ]
+}
